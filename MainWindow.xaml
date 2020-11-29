@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISP_Lab16"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="250" Width="400"
+        ResizeMode="NoResize"
+        Padding="25"
+        FontSize="25">
+    <StackPanel
+        Orientation="Vertical">
+        <TextBlock
+            Margin="0 25 0 0"
+            TextAlignment="Center"
+            FontWeight="Bold">
+            Hello from Diana!
+        </TextBlock>
+        <Button
+            Margin="50 25"
+            Content="Click me"
+            />
 
-    </Grid>
+        <StackPanel
+            Orientation="Horizontal">
+            <TextBlock HorizontalAlignment="Left">
+                Input your text here:
+                </TextBlock>
+            <TextBox 
+                MinWidth="150" 
+                MaxWidth="150" />
+        </StackPanel>
+    </StackPanel>
 </Window>
