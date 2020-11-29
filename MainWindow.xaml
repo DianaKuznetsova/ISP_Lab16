@@ -12,12 +12,15 @@
     <StackPanel
         Orientation="Vertical">
         <TextBlock
+            x:Name="textBlock"
             Margin="0 25 0 0"
             TextAlignment="Center"
             FontWeight="Bold">
             Hello from Diana!
         </TextBlock>
         <Button
+            x:Name="button"
+            Click="button_Click"
             Margin="50 25"
             Content="Click me"
             />
@@ -28,6 +31,7 @@
                 Input your text here:
                 </TextBlock>
             <TextBox 
+                x:Name="textBox"
                 MinWidth="150" 
                 MaxWidth="150" />
         </StackPanel>

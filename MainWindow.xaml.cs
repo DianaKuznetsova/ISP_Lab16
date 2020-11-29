@@ -23,6 +23,12 @@ namespace ISP_Lab16
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            textBlock.Text = textBox.Text;
         }
     }
 }
